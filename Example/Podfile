@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'React-jsi_Example' do
+  pod 'React-jsi', :path => '../'
+
+  target 'React-jsi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
